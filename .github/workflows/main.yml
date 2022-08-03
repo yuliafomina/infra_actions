@@ -80,4 +80,5 @@ jobs:
         to: ${{ secrets.TELEGRAM_TO }}
         #Новый ID
         token: ${{ secrets.TELEGRAM_TOKEN }}
+        #Новый токен
         message: ${{ github.workflow }} успешно выполнен! 
